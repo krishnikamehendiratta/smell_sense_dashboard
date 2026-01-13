@@ -11,6 +11,15 @@ st.set_page_config(
 st.markdown(
     """
     <style>
+    h1, h2, h3, h4, h5, h6,
+p, span, label, div, th, td {
+    color: #3b3651 !important;
+}
+
+thead th {
+    color: #2f2b45 !important;
+    font-weight: 700;
+}
     .stApp { background-color: #ede7f6; }
 
     h1, h2, h3, h4 {
