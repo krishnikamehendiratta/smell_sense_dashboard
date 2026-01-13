@@ -8,6 +8,29 @@ st.set_page_config(
 )
 
 # ---------- STYLES (ONLY FONT WEIGHT CHANGE) ----------
+/* FORCE TEXT VISIBILITY */
+html, body, [class*="css"] {
+    color: #2d1b3d !important;
+    opacity: 1 !important;
+}
+
+/* Headings darker */
+h1, h2, h3, h4 {
+    color: #2a1538 !important;
+    font-weight: 800 !important;
+}
+
+/* Table text */
+table, th, td {
+    color: #2d1b3d !important;
+    opacity: 1 !important;
+}
+
+/* Slider labels */
+label, span {
+    color: #2d1b3d !important;
+    opacity: 1 !important;
+}
 st.markdown(
     """
     <style>
